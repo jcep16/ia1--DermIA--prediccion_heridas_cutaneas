@@ -15,12 +15,20 @@ https://www.kaggle.com/datasets/kmader/skin-cancer-mnist-ham10000
 - Imágenes originales en formato JPG.
 - Versiones tabulares en CSV con representación numérica de píxeles.
 
-**Archivos utilizados en este proyecto:**
+## Archivos utilizados
+
+Los notebooks cargan los siguientes archivos del dataset:
+
 - `HAM10000_metadata.csv`
 - `hmnist_8_8_L.csv`
 - `hmnist_8_8_RGB.csv`
 - `hmnist_28_28_L.csv`
 - `hmnist_28_28_RGB.csv`
+
+Sin embargo, el pipeline principal desarrollado en los notebooks utiliza principalmente:
+
+- `HAM10000_metadata.csv` → construcción del target y uso de variables clínicas.
+- `hmnist_28_28_RGB.csv` → extracción de features visuales y entrenamiento de modelos.
 
 ## Obtención de los datos
 
@@ -29,17 +37,17 @@ Los archivos no se incluyen directamente en este repositorio debido a su tamaño
 Para reproducir los experimentos:
 
 1. Descargar el dataset desde Kaggle:  
-   https://www.kaggle.com/datasets/kmader/skin-cancer-mnist-ham10000
+https://www.kaggle.com/datasets/kmader/skin-cancer-mnist-ham10000
 
 2. Extraer los archivos CSV necesarios.
 
-3. Colocarlos en una carpeta local, por ejemplo:
+3. Crear una carpeta local llamada:
 
 ```bash
 data/
 ```
 
-de forma que la estructura quede:
+con la siguiente estructura:
 
 ```bash
 data/
@@ -50,7 +58,7 @@ data/
 └── hmnist_28_28_RGB.csv
 ```
 
-4. Actualizar la ruta de carga en los notebooks según la ubicación local de los archivos.
+4. Actualizar las rutas de carga en los notebooks según la ubicación local de los archivos.
 
 ## Objetivo del proyecto
 
