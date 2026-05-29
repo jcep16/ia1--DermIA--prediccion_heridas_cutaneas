@@ -1,5 +1,6 @@
-https://youtu.be/mZmOiTsktgA
+# Video del proyecto
 
+[![Video demostración](https://img.youtube.com/vi/mZmOiTsktgA/maxresdefault.jpg)](https://youtu.be/mZmOiTsktgA)
 
 # Clasificación de Lesiones Cutáneas con Inteligencia Artificial
 
