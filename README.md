@@ -1,3 +1,6 @@
+https://youtu.be/mZmOiTsktgA
+
+
 # Clasificación de Lesiones Cutáneas con Inteligencia Artificial
 
 Proyecto enfocado en la clasificación de lesiones cutáneas benignas y malignas a partir del dataset HAM10000, explorando enfoques de aprendizaje supervisado, no supervisado y deep learning para el análisis de imágenes dermatológicas.
